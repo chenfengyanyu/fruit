@@ -5,8 +5,9 @@
  * @LastEditTime: 2021-06-16 08:06:13
  */
 
-import '../styles/header.css'
+import '../styles/header.scss'
 import logoImg from '../img/logo.svg'
+import { Link } from 'react-router-dom'
 
 function App() {
 	return (
@@ -14,32 +15,27 @@ function App() {
 			<header id='header'>
 				<div id='menu'>
 					<div className='logo'>
-						<img src={logoImg} width='100' height='100' />
+						<img alt='logo' src={logoImg} width='80' height='80' />
+						<div className='title'>Topone Fruit</div>
+						<div className='desc'>
+							From Kiwi Fruit Hometown's Delicious
+						</div>
+						<div className='nav'>
+							<Link to='/' className='active'>
+								Home
+							</Link>
+							<Link to='/vf-kiwi-silice'>Products</Link>
+							<a href='#service' name='service'>
+								Service
+							</a>
+							<a href='#contact' name='contact'>
+								Contact
+							</a>
+						</div>
 					</div>
 				</div>
 				<div id='banner'></div>
 			</header>
-			<section className='first-content'>
-				<div className='title'>
-					Fruit processing at the highest level
-				</div>
-				<p>
-					Over 800 fruit growers and organic farmers supply us with
-					fresh, sun-ripened fruit from selected growing areas in
-					South Tyrol and northern Italy. Modern technology and
-					well-trained workers then transform the raw ingredients into
-					a high-quality end product that meets the most exacting
-					requirements of our international customer base. Not for
-					nothing is Fructus Meran among the leading European
-					manufacturers of stewed apples, stewed pears and frozen
-					fruit.
-				</p>
-				<ul>
-					<li>图片一</li>
-					<li>图片二</li>
-					<li>图片三</li>
-				</ul>
-			</section>
 		</div>
 	)
 }

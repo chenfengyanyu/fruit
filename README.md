@@ -1,3 +1,12 @@
+<!-- @format -->
+
+<!--
+ * @Author: Jartto
+ * @Date: 2021-06-19 10:48:58
+ * @LastEditTime: 2021-06-19 11:33:06
+-->
+<!-- @format -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -8,13 +8,21 @@
 import 'lib-flexible'
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
-import App from './home/App'
+import './index.scss'
+// import App from './home/App'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals'
+import App from './home/App'
+import Product from './product/index'
 
 ReactDOM.render(
 	<React.StrictMode>
-		<App />
+		<Router>
+			<Switch>
+				<Route path='/vf-kiwi-silice' component={Product} />
+				<Route path='/' component={App} />
+			</Switch>
+		</Router>
 	</React.StrictMode>,
 	document.getElementById('root')
 )

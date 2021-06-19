@@ -1,0 +1,35 @@
+/** @format */
+
+#header {
+	width: 100%;
+	height: 200px;
+	background: url('../img/bg.jpeg') 0 0 no-repeat;
+	background-size: cover;
+}
+#menu {
+	width: 100%;
+	height: 60px;
+	background: #fff;
+	opacity: 0.6;
+}
+.logo img {
+	margin: -20px 0 0 15px;
+	float: left;
+}
+.first-content {
+	width: 100%;
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+.first-content .title {
+	font-family: Maitree;
+	font-weight: 350;
+	color: #487b38;
+	text-align: center;
+}
+.first-content p {
+	width: 85%;
+	display: inline-block;
+	text-align: left;
+	line-height: 180%;
+}

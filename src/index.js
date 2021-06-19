@@ -1,11 +1,16 @@
-/** @format */
+/**
+ * @format
+ * @Author: Jartto
+ * @Date: 2021-03-28 20:48:26
+ * @LastEditTime: 2021-06-16 08:07:28
+ */
 
+import 'lib-flexible'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './App'
+import App from './home/App'
 import reportWebVitals from './reportWebVitals'
-import 'lib-flexible'
 
 ReactDOM.render(
 	<React.StrictMode>

@@ -13,13 +13,13 @@ import Gallery from 'react-photo-gallery'
 import fac1 from '../img/factory/1.jpeg'
 import fac2 from '../img/factory/2.jpeg'
 import fac3 from '../img/factory/3.jpeg'
-import fac4 from '../img/factory/4.jpeg'
+import fac4 from '../img/factory/4.jpg'
 import fac5 from '../img/factory/5.jpeg'
 
 const photos = [
 	{
 		src: fac1,
-		width: 4,
+		width: 5,
 		height: 3
 	},
 	{
@@ -33,14 +33,14 @@ const photos = [
 		height: 1
 	},
 	{
-		src: fac4,
+		src: fac5,
 		width: 1,
 		height: 1
 	},
 	{
-		src: fac5,
-		width: 1,
-		height: 1
+		src: fac4,
+		width: 5,
+		height: 3
 	}
 ]
 

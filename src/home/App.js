@@ -13,18 +13,18 @@ import Product from '../component/Product'
 import Factory from '../component/Factory'
 import Contact from '../component/Contact'
 import Service from '../component/Service'
-import intro1 from '../img/introduce/1.jpeg'
-import intro2 from '../img/introduce/2.jpeg'
-import intro3 from '../img/introduce/3.jpeg'
+import About from '../component/About'
+import Company from '../component/Company'
+import Category from '../component/Category'
 
 function App() {
 	return (
 		<div className='container'>
 			<Header></Header>
 			<section className='first-content'>
-				<div className='title'>Where we are？</div>
+				<div className='title'>Where We Are</div>
 				<p>
-					The largest of KIWI Fruit Hometpwn in the world My hometown
+					The very famous KIWI Fruit Hometpwn in the world My hometown
 					is Zhouzhi County, Xi'an City, Shaanxi Province, China. It
 					is located in the south of Qinling mountain. It is a very
 					old and mysterious place. This is the famous "hometown of
@@ -41,22 +41,13 @@ function App() {
 					be pollinated, when it will bear fruit and when it will
 					mature, just like understanding our own life.
 				</p>
-				<div className='introduce'>
-					<Link to='/vf-kiwi-silice'>
-						<img src={intro1} />
-						<i className='desc'>VF KIWI SILICE</i>
-					</Link>
-					<Link to='/other-vf-fruit'>
-						<img src={intro2} />
-						<i className='desc'>OTHER VF FRUIT</i>
-					</Link>
-					<Link to='/dried-kiwi-slice'>
-						<img src={intro3} />
-						<i className='desc'>DRIED KIWI SLICE</i>
-					</Link>
-				</div>
+				<About />
 			</section>
-			<section id='product' className='first-content'>
+			<section className='first-content'>
+				<Category />
+			</section>
+
+			<section className='first-content'>
 				<div className='title'>Our Products</div>
 				<p>
 					Our products are divided into preserved & dry fruits, VF
@@ -72,6 +63,29 @@ function App() {
 					delicious food.
 				</p>
 				<Product />
+			</section>
+			<section className='first-content'>
+				<div className='title'>Our Company</div>
+				<p>
+					Xi'an Topone Fruit Co., Ltd. is located in Zhouzhi County,
+					the hometown of kiwifruit. We stay with kiwifruit day and
+					night. We have our own Kiwi orchard. Three generations of us
+					have been planting kiwifruit Our kiwifruit are green
+					products, No pesticides, No pollution, we have the very good
+					natural environment. Our farms provide a continuous supply
+					of raw materials for our production and processing of Kiwi
+					products. We have nearly 20 years of experience in R & D and
+					production of macaques. Our fresh fruits and processed
+					products have been exported to India, Russia, Vietnam,
+					Thailand, Malaysia, Philippines, South Korea, Canada,
+					Brazil, Panama, the United States, Canada and other
+					countries in South America. 80% of the VF kiwi slice and
+					Dried kiwi you purchased from China are produced by our
+					factory. We are now going to export it directly to you. So
+					that you can buy products with good quality and better
+					price.
+				</p>
+				<Company />
 			</section>
 			<section id='service' className='first-content'>
 				<Service />

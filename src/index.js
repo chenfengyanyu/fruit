@@ -13,13 +13,17 @@ import './index.scss'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals'
 import App from './home/App'
-import Product from './product/index'
+import VF1 from './product/index'
+import VF2 from './product/banner2'
+import VF3 from './product/banner3'
 
 ReactDOM.render(
 	<React.StrictMode>
 		<Router>
 			<Switch>
-				<Route path='/vf-kiwi-silice' component={Product} />
+				<Route path='/vf-kiwi-silice' component={VF1} />
+				<Route path='/other-vf-fruit' component={VF2} />
+				<Route path='/dried-kiwi-slice' component={VF3} />
 				<Route path='/' component={App} />
 			</Switch>
 		</Router>

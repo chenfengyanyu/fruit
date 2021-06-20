@@ -8,6 +8,7 @@
 import '../styles/header.scss'
 import logoImg from '../img/logo.svg'
 import { Link } from 'react-router-dom'
+import HomeImg from '../img/home.svg'
 
 function App() {
 	return (
@@ -32,6 +33,11 @@ function App() {
 								Contact
 							</a>
 						</div>
+					</div>
+					<div className='homeicon'>
+						<Link to='/'>
+							<img src={HomeImg} />
+						</Link>
 					</div>
 				</div>
 				<div id='banner'></div>

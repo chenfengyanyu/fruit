@@ -29,15 +29,15 @@ import pro17 from '../img/product/17.jpeg'
 import pro18 from '../img/product/18.jpeg'
 import pro19 from '../img/product/19.jpeg'
 import pro20 from '../img/product/20.jpeg'
-import pro21 from '../img/product/21.png'
+import pro21 from '../img/product/21.jpeg'
 import pro22 from '../img/product/22.jpeg'
 import pro23 from '../img/product/23.jpeg'
 
 const photos = [
 	{
 		src: pro1,
-		width: 4,
-		height: 3
+		width: 1,
+		height: 1
 	},
 	{
 		src: pro3,
@@ -51,8 +51,8 @@ const photos = [
 	},
 	{
 		src: pro4,
-		width: 4,
-		height: 3
+		width: 1,
+		height: 1
 	},
 	{
 		src: pro11,

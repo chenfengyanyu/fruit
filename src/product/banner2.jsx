@@ -1,35 +1,35 @@
 /** @format */
 
-import './index.scss'
-import Header from '../component/Header2'
-import Factory from '../component/Factory'
-import Contact from '../component/Contact'
-import Service from '../component/Service'
-import Company from '../component/Company'
-import Category from '../component/Category'
+import './index.scss';
+import Header from '../component/Header2';
+import Factory from '../component/Factory';
+import Contact from '../component/Contact';
+import Service from '../component/Service';
+import Company from '../component/Company';
+import Category from '../component/Category';
 
-import VF1 from '../img/vf2/1.png'
-import VF2 from '../img/vf2/2.png'
-import VF3 from '../img/vf2/3.png'
-import VF4 from '../img/vf2/4.png'
-import VF5 from '../img/vf2/5.png'
-import VF6 from '../img/vf2/6.png'
-import VF7 from '../img/vf2/7.png'
-import VF8 from '../img/vf2/8.png'
-import VF9 from '../img/vf2/9.png'
-import VF10 from '../img/vf2/10.png'
-import VF11 from '../img/vf2/11.png'
-import VF12 from '../img/vf2/12.png'
-import VF13 from '../img/vf2/13.png'
-import VF14 from '../img/vf2/14.png'
-import VF15 from '../img/vf2/15.png'
-import VF16 from '../img/vf2/16.png'
-import VF17 from '../img/vf2/17.png'
-import VF18 from '../img/vf2/18.png'
-import VF19 from '../img/vf2/19.png'
-import VF20 from '../img/vf2/20.png'
-import VF21 from '../img/vf2/21.png'
-import VF22 from '../img/vf2/22.png'
+import VF1 from '../img/vf2/1.png';
+import VF2 from '../img/vf2/2.png';
+import VF3 from '../img/vf2/3.png';
+import VF4 from '../img/vf2/4.png';
+import VF5 from '../img/vf2/5.png';
+import VF6 from '../img/vf2/6.png';
+import VF7 from '../img/vf2/7.png';
+import VF8 from '../img/vf2/8.png';
+import VF9 from '../img/vf2/9.png';
+import VF10 from '../img/vf2/10.png';
+import VF11 from '../img/vf2/11.png';
+import VF12 from '../img/vf2/12.png';
+import VF13 from '../img/vf2/13.png';
+import VF14 from '../img/vf2/14.png';
+import VF15 from '../img/vf2/15.png';
+import VF16 from '../img/vf2/16.png';
+import VF17 from '../img/vf2/17.png';
+import VF18 from '../img/vf2/18.png';
+import VF19 from '../img/vf2/19.png';
+import VF20 from '../img/vf2/20.png';
+import VF21 from '../img/vf2/21.png';
+import VF22 from '../img/vf2/22.png';
 
 function ProductPage() {
 	return (
@@ -65,14 +65,12 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Dried Dates</div>
 						<p>
-							<strong>Craft：</strong>vacuum fried on the
-							condition of low temperature(80-85℃)
+							<strong>Craft: </strong>vacuum fried on the low temperature(80-85℃)
 						</p>
 						<p>
-							<strong>Ingredients：</strong>dates,palm oil,maltose
-							dates,palm oil,maltose 9 month on the room
-							temperature,sealed package,away. from light.
+							<strong>Ingredients: </strong>Dates ,palm oil,maltose
 						</p>
+						<p><strong>Shelf life: </strong>9 month</p>
 					</div>
 				</div>
 				<div className='detail2'>
@@ -82,10 +80,10 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Freeze Dried Strawberries</div>
 						<p>
-							<strong>Craft：</strong>Freezing to remove moisture.
+							<strong>Craft: </strong>Freezing to remove moisture.
 						</p>
 						<p>
-							<strong>Ingredients：</strong>Fresh strawberries,
+							<strong>Ingredients: </strong>Fresh strawberries,
 							sugar.
 						</p>
 					</div>
@@ -98,9 +96,19 @@ function ProductPage() {
 						<div className='title'>Dried Mango</div>
 						<p>
 							Yellow, translucent, typical of natural raw mango
-							flavour SO2:300PPM max；Total Sugar:
-							35%-45%；Moisture:14-18% Shelf life:12 months,store
-							at dry and cool place,avoid sunshine.
+							flavour
+						</p>
+						<p>
+							<strong>SO2: </strong>300PPM max
+						</p>
+						<p>
+							<strong>Total Sugar: </strong>35%-45%
+						</p>
+						<p>
+							<strong>Moisture: </strong>14-18%
+						</p>
+						<p>
+							<strong>Shelf life: </strong>12 months
 						</p>
 					</div>
 				</div>
@@ -111,10 +119,10 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Jackfruit Chips</div>
 						<p>
-							<strong>Craft：</strong>Freezing to remove moisture.
+							<strong>Craft: </strong>Freezing to remove moisture.
 						</p>
 						<p>
-							<strong>Ingredients：</strong>Fresh Jackfruit,sugar.
+							<strong>Ingredients: </strong>Fresh Jackfruit,sugar.
 						</p>
 					</div>
 				</div>
@@ -141,15 +149,15 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Green Radish Chips</div>
 						<p>
-							<strong>Craft：</strong>vacuum fried on the
+							<strong>Craft: </strong>vacuum fried on the
 							condition of low temperature(80-85℃)
 						</p>
 						<p>
-							<strong>Ingredients：</strong>green radish,palm
+							<strong>Ingredients: </strong>green radish,palm
 							oil,maltose
 						</p>
 						<p>
-							<strong>Shelf life：</strong>9 month
+							<strong>Shelf life: </strong>9 month
 						</p>
 					</div>
 				</div>
@@ -160,15 +168,15 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Shiitake Whole</div>
 						<p>
-							<strong>Craft：</strong>vacuum fried on the
+							<strong>Craft: </strong>vacuum fried on the
 							condition of low temperature(80-85℃)
 						</p>
 						<p>
-							<strong>Ingredients：</strong>Shiitake,palm
+							<strong>Ingredients: </strong>Shiitake,palm
 							oil,maltose
 						</p>
 						<p>
-							<strong>Shelf life：</strong>9 month
+							<strong>Shelf life: </strong>9 month
 						</p>
 					</div>
 				</div>
@@ -179,15 +187,15 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Red-Core Radish Chips</div>
 						<p>
-							<strong>Craft：</strong>vacuum fried on the
+							<strong>Craft: </strong>vacuum fried on the
 							condition of low temperature(80-85℃)
 						</p>
 						<p>
-							<strong>Ingredients：</strong>Red-Core radish,palm
+							<strong>Ingredients: </strong>Red-Core radish,palm
 							oil,maltose
 						</p>
 						<p>
-							<strong>Shelf life：</strong>9 month
+							<strong>Shelf life: </strong>9 month
 						</p>
 					</div>
 				</div>
@@ -198,15 +206,15 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Stringless Green Bean</div>
 						<p>
-							<strong>Craft：</strong>vacuum fried on the
+							<strong>Craft: </strong>vacuum fried on the
 							condition of low temperature(80-85℃)
 						</p>
 						<p>
-							<strong>Ingredients：</strong>Green Bean,palm
+							<strong>Ingredients: </strong>Green Bean,palm
 							oil,maltose
 						</p>
 						<p>
-							<strong>Shelf life：</strong>9 month
+							<strong>Shelf life: </strong>9 month
 						</p>
 					</div>
 				</div>
@@ -217,15 +225,15 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Purple Sweet Potato Chips</div>
 						<p>
-							<strong>Craft：</strong>vacuum fried on the
+							<strong>Craft: </strong>vacuum fried on the
 							condition of low temperature(80-85℃)
 						</p>
 						<p>
-							<strong>Ingredients：</strong>Fresh Purple sweet
+							<strong>Ingredients: </strong>Fresh Purple sweet
 							potato,palm oil,maltose
 						</p>
 						<p>
-							<strong>Shelf life：</strong>9 month
+							<strong>Shelf life: </strong>9 month
 						</p>
 					</div>
 				</div>
@@ -236,15 +244,15 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Sweet Potato Sticks</div>
 						<p>
-							<strong>Craft：</strong>vacuum fried on the
+							<strong>Craft: </strong>vacuum fried on the
 							condition of low temperature(80-85℃)
 						</p>
 						<p>
-							<strong>Ingredients：</strong>Fresh Sweet potato,
+							<strong>Ingredients: </strong>Fresh Sweet potato,
 							palm oil, maltose
 						</p>
 						<p>
-							<strong>Shelf life：</strong>9 month
+							<strong>Shelf life: </strong>9 month
 						</p>
 					</div>
 				</div>
@@ -255,15 +263,15 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Taro Sticks</div>
 						<p>
-							<strong>Craft：</strong>vacuum fried on the
+							<strong>Craft: </strong>vacuum fried on the
 							condition of low temperature(80-85℃)
 						</p>
 						<p>
-							<strong> Ingredients：</strong>Fresh Taro, palm oil,
+							<strong> Ingredients: </strong>Fresh Taro, palm oil,
 							maltose
 						</p>
 						<p>
-							<strong>Shelf life：</strong>9 month
+							<strong>Shelf life: </strong>9 month
 						</p>
 					</div>
 				</div>
@@ -274,15 +282,15 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Purple Sweet Potato Sticks</div>
 						<p>
-							<strong>Craft：</strong>vacuum fried on the
+							<strong>Craft: </strong>vacuum fried on the
 							condition of low temperature(80-85℃)
 						</p>
 						<p>
-							<strong>Ingredients：</strong>Fresh Purple Sweet
+							<strong>Ingredients: </strong>Fresh Purple Sweet
 							Potato, palm oil, maltose
 						</p>
 						<p>
-							<strong>Shelf life：</strong>9 month
+							<strong>Shelf life: </strong>9 month
 						</p>
 					</div>
 				</div>
@@ -293,15 +301,15 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Taro Chips</div>
 						<p>
-							<strong>Craft：</strong>vacuum fried on the
+							<strong>Craft: </strong>vacuum fried on the
 							condition of low temperature(80-85℃)
 						</p>
 						<p>
-							<strong>Ingredients：</strong>Fresh Taro, palm oil,
+							<strong>Ingredients: </strong>Fresh Taro, palm oil,
 							maltose
 						</p>
 						<p>
-							<strong>Shelf life：</strong>9 month
+							<strong>Shelf life: </strong>9 month
 						</p>
 					</div>
 				</div>
@@ -312,15 +320,15 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Pumkin Chips</div>
 						<p>
-							<strong>Craft：</strong>vacuum fried on the
+							<strong>Craft: </strong>vacuum fried on the
 							condition of low temperature(80-85℃)
 						</p>
 						<p>
-							<strong>Ingredients：</strong>Fresh pumkin, palm
+							<strong>Ingredients: </strong>Fresh pumkin, palm
 							oil, maltose
 						</p>
 						<p>
-							<strong>Shelf life：</strong>9 month
+							<strong>Shelf life: </strong>9 month
 						</p>
 					</div>
 				</div>
@@ -331,10 +339,10 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Freeze Dried Pitaya</div>
 						<p>
-							<strong>Craft：</strong>Freezing to remove moisture.
+							<strong>Craft: </strong>Freezing to remove moisture.
 						</p>
 						<p>
-							<strong>Ingredients：</strong>Fresh Pitaya, sugar
+							<strong>Ingredients: </strong>Fresh Pitaya, sugar
 						</p>
 					</div>
 				</div>
@@ -345,10 +353,10 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Freeze Dried fig</div>
 						<p>
-							<strong>Craft：</strong>Freezing to remove moisture.
+							<strong>Craft: </strong>Freezing to remove moisture.
 						</p>
 						<p>
-							<strong>Ingredients：</strong>Fresh fig, Sugar
+							<strong>Ingredients: </strong>Fresh fig, Sugar
 						</p>
 					</div>
 				</div>
@@ -357,13 +365,16 @@ function ProductPage() {
 						<img src={VF20} width='100%' height='100%' />
 					</div>
 					<div class='info'>
-						<div className='title'>Freeze Dried Apple</div>
+						<div className='title'>Dried Apple Chips</div>
 						<p>
-							<strong>Craft：</strong>Freezing to remove moisture
+							<strong>Craft: </strong>vacuum fried on the low temperature(80-85℃)
+
 						</p>
 						<p>
-							<strong>Ingredients：</strong>Fresh Apple, Sugar
+							<strong>Ingredients: </strong>Apple ,Palm Oil, Maltose。
+
 						</p>
+						<p><strong>Shelf life: </strong>9 month</p>
 					</div>
 				</div>
 				<div className='detail'>
@@ -373,15 +384,15 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Yellow Peach Chips</div>
 						<p>
-							<strong>Craft：</strong>vacuum fried on the
+							<strong>Craft: </strong>vacuum fried on the
 							condition of low temperature(80-85℃)
 						</p>
 						<p>
-							<strong>Ingredients：</strong>Fresh Yellow Peach,
+							<strong>Ingredients: </strong>Fresh Yellow Peach,
 							palm oil, maltose
 						</p>
 						<p>
-							<strong>Shelf life：</strong>9 month
+							<strong>Shelf life: </strong>9 month
 						</p>
 					</div>
 				</div>
@@ -403,13 +414,13 @@ function ProductPage() {
 			<section className='first-content'>
 				<div className='title'>Our Company</div>
 				<p>
-					Xi'an Topone Fruit Co., Ltd. is located in Zhouzhi County,
-					the hometown of kiwifruit. We stay with kiwifruit day and
-					night. We have our own Kiwi orchard. Three generations of us
-					have been planting kiwifruit Our kiwifruit are green
-					products, No pesticides, No pollution, we have the very good
-					natural environment. Our farms provide a continuous supply
-					of raw materials for our production and processing of Kiwi
+					Xi'an Top1 Fruit Co., Ltd. is located in Zhouzhi County, the
+					hometown of kiwifruit. We stay with kiwifruit day and night.
+					We have our own Kiwi orchard. Three generations of us have
+					been planting kiwifruit Our kiwifruit are green products, No
+					pesticides, No pollution, we have the very good natural
+					environment. Our farms provide a continuous supply of raw
+					materials for our production and processing of Kiwi
 					products. We have nearly 20 years of experience in R & D and
 					production of macaques. Our fresh fruits and processed
 					products have been exported to India, Russia, Vietnam,
@@ -431,7 +442,7 @@ function ProductPage() {
 				<Contact />
 			</section>
 		</div>
-	)
+	);
 }
 
-export default ProductPage
+export default ProductPage;

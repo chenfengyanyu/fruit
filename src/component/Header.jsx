@@ -17,7 +17,7 @@ function App() {
 				<div id='menu'>
 					<div className='logo'>
 						<img alt='logo' src={logoImg} width='80' height='80' />
-						<div className='title'>Topone Fruit</div>
+						<div className='title'>Top1 Fruit</div>
 						<div className='desc'>
 							From Kiwi Fruit Hometown's Delicious
 						</div>

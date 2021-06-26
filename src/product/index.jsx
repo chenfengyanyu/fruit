@@ -45,66 +45,53 @@ function ProductPage() {
 			</section>
 			<section className='first-content'>
 				<div className='detail'>
-					<div class='photo'>
+					<div className='photo'>
 						<img src={VF1} width='100%' height='100%' />
 					</div>
-					<div class='info'>
+					<div className='info'>
 						<div className='title'>Colour and Taste</div>
 						<p>
 							Green or Yellow, Crispy, Sour and sweet with raw
 							kiwi flavor
 						</p>
-						<p>We have a date with delicious</p>
-						<p>The original color without pigment</p>
 					</div>
 				</div>
 				<div className='detail2'>
-					<div class='photo'>
+					<div className='photo'>
 						<img src={VF2} width='100%' height='100%' />
 					</div>
-					<div class='info'>
+					<div className='info'>
 						<div className='title'>Food Additives</div>
-						<p>Only delicacy and love can live up to </p>
 						<p>Kiwi Slice, Sugar, Palm oil, Citric Acid</p>
-						<p>The natural smell and taste of kiwi fruit</p>
 					</div>
 				</div>
 				<div className='detail'>
-					<div class='photo'>
+					<div className='photo'>
 						<img src={VF3} width='100%' height='100%' />
 					</div>
-					<div class='info'>
+					<div className='info'>
 						<div className='title'>Craft</div>
 						<p>
 							vacuum fried on the condition of low
 							temperature(82-85℃)
 						</p>
-						<p>Let life have more flavor and make life better</p>
-						<p>Crisp and refreshing, delicious and nutritious</p>
 					</div>
 				</div>
 				<div className='detail2'>
-					<div class='photo'>
+					<div className='photo'>
 						<img src={VF4} width='100%' height='100%' />
 					</div>
-					<div class='info'>
+					<div className='info'>
 						<div className='title'>Coloring Additives</div>
-						<p>
-							Control the source, only for the best VF fruits and
-							vegetables
-						</p>
-						<p>Share nature and health with you</p>
 						<p>Green(yes) ; Yellow ( No.)</p>
 					</div>
 				</div>
 				<div className='detail'>
-					<div class='photo'>
+					<div className='photo'>
 						<img src={VF5} width='100%' height='100%' />
 					</div>
-					<div class='info'>
+					<div className='info'>
 						<div className='title'>Normal Size</div>
-						<p>Want both delicious and nutrition</p>
-						<p>Naturally fruity, locking in freshness</p>
 						<p>Thickness: 0.6-0.8cm; Width: > 4.0cm</p>
 					</div>
 				</div>
@@ -112,7 +99,7 @@ function ProductPage() {
 			<section className='first-content'>
 				<div className='title'>Our Company</div>
 				<p>
-					Xi'an Topone Fruit Co., Ltd. is located in Zhouzhi County,
+					Xi'an Top1 Fruit Co., Ltd. is located in Zhouzhi County,
 					the hometown of kiwifruit. We stay with kiwifruit day and
 					night. We have our own Kiwi orchard. Three generations of us
 					have been planting kiwifruit Our kiwifruit are green

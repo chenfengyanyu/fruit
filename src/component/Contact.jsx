@@ -23,10 +23,10 @@ function Contact() {
 					<strong>Tel: </strong>+0086-134 8493 6283
 				</div>
 				<div>
-					<strong>Email: </strong>sales@toponefruit.com
+					<strong>Email: </strong><a href="mailto:sales@top1fruit.com" >sales@top1fruit.com</a>
 				</div>
 				<div>
-					<strong>Web: </strong>www.toponefruit.com
+					<strong>Web: </strong>https://top1fruit.com/
 				</div>
 				<p></p>
 				<div>
@@ -34,7 +34,7 @@ function Contact() {
 					710400 China.
 				</div>
 				<div>
-					<strong>Email: </strong>info@toponefruit.com
+					<strong>Email: </strong><a href="mailto:info@top1fruit.com" >info@top1fruit.com</a>
 				</div>
 				<p></p>
 			</div>

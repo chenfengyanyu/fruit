@@ -131,7 +131,7 @@ function ProductPage() {
 			<section className='first-content'>
 				<div className='title'>Our Company</div>
 				<p>
-					Xi'an Topone Fruit Co., Ltd. is located in Zhouzhi County,
+					Xi'an Top1 Fruit Co., Ltd. is located in Zhouzhi County,
 					the hometown of kiwifruit. We stay with kiwifruit day and
 					night. We have our own Kiwi orchard. Three generations of us
 					have been planting kiwifruit Our kiwifruit are green

@@ -15,17 +15,21 @@ import fac2 from '../img/factory/2.jpeg'
 import fac3 from '../img/factory/3.jpeg'
 import fac4 from '../img/factory/4.jpg'
 import fac5 from '../img/factory/5.jpeg'
+import fac6 from '../img/factory/6.jpeg'
+import fac7 from '../img/factory/7.jpeg'
+import fac8 from '../img/factory/8.jpeg'
+import fac9 from '../img/factory/9.jpeg'
 
 const photos = [
 	{
 		src: fac1,
-		width: 5,
-		height: 3
+		width: 1,
+		height: 1
 	},
 	{
 		src: fac2,
-		width: 1,
-		height: 1
+		width: 4,
+		height: 3
 	},
 	{
 		src: fac3,
@@ -39,6 +43,26 @@ const photos = [
 	},
 	{
 		src: fac4,
+		width: 4,
+		height: 3
+	},
+	{
+		src: fac6,
+		width: 5,
+		height: 3
+	},
+	{
+		src: fac7,
+		width: 5,
+		height: 3
+	},
+	{
+		src: fac8,
+		width: 5,
+		height: 3
+	},
+	{
+		src: fac9,
 		width: 5,
 		height: 3
 	}

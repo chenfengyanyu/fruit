@@ -1,10 +1,7 @@
-/**
- * /*
- *
- * @format
+/*
  * @Author: Jartto
  * @Date: 2021-03-28 20:48:26
- * @LastEditTime: 2021-06-16 08:06:13
+ * @LastEditTime: 2021-06-27 21:15:54
  */
 import './App.scss'
 import { Link } from 'react-router-dom'

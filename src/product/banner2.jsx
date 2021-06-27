@@ -65,12 +65,16 @@ function ProductPage() {
 					<div class='info'>
 						<div className='title'>Dried Dates</div>
 						<p>
-							<strong>Craft: </strong>vacuum fried on the low temperature(80-85℃)
+							<strong>Craft: </strong>vacuum fried on the low
+							temperature(80-85℃)
 						</p>
 						<p>
-							<strong>Ingredients: </strong>Dates ,palm oil,maltose
+							<strong>Ingredients: </strong>Dates ,palm
+							oil,maltose
 						</p>
-						<p><strong>Shelf life: </strong>9 month</p>
+						<p>
+							<strong>Shelf life: </strong>9 month
+						</p>
 					</div>
 				</div>
 				<div className='detail2'>
@@ -365,16 +369,13 @@ function ProductPage() {
 						<img src={VF20} width='100%' height='100%' />
 					</div>
 					<div class='info'>
-						<div className='title'>Dried Apple Chips</div>
+						<div className='title'>Freeze Dried apple</div>
 						<p>
-							<strong>Craft: </strong>vacuum fried on the low temperature(80-85℃)
-
+							<strong>Craft: </strong>Freezing to remove moisture.
 						</p>
 						<p>
-							<strong>Ingredients: </strong>Apple ,Palm Oil, Maltose。
-
+							<strong>Ingredients: </strong>Fresh Apple
 						</p>
-						<p><strong>Shelf life: </strong>9 month</p>
 					</div>
 				</div>
 				<div className='detail'>

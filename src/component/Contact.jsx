@@ -26,7 +26,7 @@ function Contact() {
 					<strong>Email: </strong><a href="mailto:sales@top1fruit.com" >sales@top1fruit.com</a>
 				</div>
 				<div>
-					<strong>Web: </strong>https://top1fruit.com/
+					<strong>Web: </strong><a href="https://top1fruit.com/">https://top1fruit.com/</a>
 				</div>
 				<p></p>
 				<div>
